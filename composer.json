@@ -1,0 +1,13 @@
+{
+    "name": "abrahamfast/designpatternscode",
+    "description": "Collection of design patterns, small list of examples.",
+    "license": "MIT",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "Abraham ghaemi",
+            "email": "ig.ghaemi@gmail.com"
+        }
+    ],
+    "require": {}
+}
