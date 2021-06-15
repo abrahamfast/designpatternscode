@@ -1,10 +1,9 @@
 <?php
 
-namespace Creational\Contracts;
+namespace App\Creational\AbstractFactory\Contracts;
 
 interface WriterFactory
 {
 	public function createCsvWriter(): CsvWriter;
 	public function createJsonWriter(): JsonWriter;
 }
-
