@@ -6,8 +6,8 @@ use App\Creational\AbstractFactory\Contracts\JsonWriter;
 
 class WinJsonWriter implements JsonWriter
 {
-	public function write(array $data, bool $formatted)
+	public function write(array $data, bool $formatted): string
 	{
-		// code
+		return json_encode($data, JSON_PRETTY_PRINT);
 	}
 }
