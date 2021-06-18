@@ -3,3 +3,4 @@ Collection of design patterns, small list of examples.
 
 - Creational
   - Abstract Factory
+  - Builder
