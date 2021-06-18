@@ -1,6 +1,7 @@
 <?php 
 
 namespace App\Creational\Builder\Contracts;
+use App\Creational\Builder\VehicleAbstract;
 
 interface BuilderInterface
 {
@@ -8,5 +9,5 @@ interface BuilderInterface
 	public function addEngine();
 	public function addDoors();
 	public function createVehicle();
-	public function getVehicle(): Vehicle;
+	public function getVehicle(): VehicleAbstract;
 }
